@@ -22,6 +22,6 @@ public class App
 
         double usd = euros*rate;
 
-        System.out.printf("%d euros at an exchange rate of %f is \n%.2f U.S. dollars.", euros, rate, usd);
+        System.out.printf("%d euros at an exchange rate of %.4f is \n%.2f U.S. dollars.", euros, rate, usd);
     }
 }
